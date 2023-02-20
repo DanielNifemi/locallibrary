@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Author, Genre, Book, BookInstance
 
 
- # admin.site.register(Book)
+# admin.site.register(Book)
 
 
 class BookInstanceInLine(admin.TabularInline):
